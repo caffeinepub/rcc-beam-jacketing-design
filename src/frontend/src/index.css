@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: 0.965 0.006 236;
+    --foreground: 0.22 0.04 240;
+    --card: 1 0 0;
+    --card-foreground: 0.22 0.04 240;
+    --popover: 1 0 0;
+    --popover-foreground: 0.22 0.04 240;
+    --primary: 0.46 0.11 237;
+    --primary-foreground: 1 0 0;
+    --secondary: 0.94 0.012 237;
+    --secondary-foreground: 0.22 0.04 240;
+    --muted: 0.94 0.012 237;
+    --muted-foreground: 0.52 0.025 237;
+    --accent: 0.92 0.018 237;
+    --accent-foreground: 0.22 0.04 240;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 1 0 0;
+    --success: 0.63 0.15 152;
+    --success-foreground: 1 0 0;
+    --border: 0.88 0.012 237;
+    --input: 0.92 0.01 237;
+    --ring: 0.46 0.11 237;
+    --chart-1: 0.46 0.11 237;
+    --chart-2: 0.63 0.15 152;
+    --chart-3: 0.577 0.245 27.325;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.22 0.04 240;
+    --sidebar-foreground: 0.985 0 0;
+    --sidebar-primary: 0.46 0.11 237;
+    --sidebar-primary-foreground: 1 0 0;
+    --sidebar-accent: 0.28 0.04 240;
+    --sidebar-accent-foreground: 0.985 0 0;
+    --sidebar-border: 0.32 0.04 240;
+    --sidebar-ring: 0.46 0.11 237;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
